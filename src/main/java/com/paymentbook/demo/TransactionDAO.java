@@ -1,9 +1,11 @@
 package com.paymentbook.demo;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface TransactionDAO {
+public interface TransactionDAO{
 
     List<Transaction> getAllTransactions();
 

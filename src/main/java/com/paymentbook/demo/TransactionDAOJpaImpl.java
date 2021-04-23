@@ -19,7 +19,11 @@ public class TransactionDAOJpaImpl implements TransactionDAO {
    //get all the transactions from the database
     @Override
     public List<Transaction> getAllTransactions() {
+<<<<<<< HEAD
         Query theQuery= (Query) entityManager.createQuery("select id,email,type,date from Transaction");
+=======
+        Query theQuery= (Query) entityManager.createQuery("select email,type from Transaction");
+>>>>>>> 28faed941c9992e10bc1598f8d75aca8c3a07ddd
         List<Transaction> transactions = theQuery.getResultList();
 
         return transactions;
