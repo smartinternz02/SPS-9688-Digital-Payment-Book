@@ -4,7 +4,7 @@
   "description": "Demo of ReactJS + Spring Data REST",
   "repository": {
     "type": "git",
-    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
+    "url": "git@github.com/smartinternz02/SPS-9688-Digital-Payment-Book.git"
   },
   "keywords": [
     "rest",
@@ -13,12 +13,12 @@
     "data",
     "react"
   ],
-  "author": "Greg L. Turnquist",
+  "author": "Girevasan",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/spring-guides/tut-react-and-spring-data-rest/issues"
+    "url": "https://github.com/smartinternz02/SPS-9688-Digital-Payment-Book"
   },
-  "homepage": "https://github.com/spring-guides/tut-react-and-spring-data-rest",
+  "homepage": "https://github.com/smartinternz02/SPS-9688-Digital-Payment-Book",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",

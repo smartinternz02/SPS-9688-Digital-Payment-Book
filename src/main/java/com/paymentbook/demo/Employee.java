@@ -4,15 +4,14 @@ import java.util.Objects;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
 
 @Entity
 public class Employee {
 
-	@Id 
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Long id;
+	@Id @GeneratedValue 
+	private Long id; // <2>
 	private String firstName;
 	private String lastName;
 	private String description;
